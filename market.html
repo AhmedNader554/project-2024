@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Supermarket</h1>
+            <nav>
+                <ul class="mo">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Welcome to Our Supermarket</h2>
+                <p>Your one-stop shop for all your needs!</p>
+            </div>
+        </section>
+
+
+
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are committed to providing the best quality products to our customers.</p>
+            </div>
+        </section>
+
+
+
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-list">
+                    <div class="product">
+                        <h3>fruits</h3>
+                        <img src="C:\Users\hp\Desktop\pngtree-a-lot-of-fruits-piled-on-the-table-fruit-and-vegetable-photo-image_15526742.png" alt=""  width="500" height="500">
+                        <p>Fresh and juicy fruits.</p>
+                        <button onclick="addToCart('fruits')">Add to Cart</button>
+                    </div>
+
+
+                    <div class="product">
+                        <h3>Bread</h3>
+                        <img src="C:\Users\hp\Desktop\pngtree-various-baked-sweets-picture-image_3021210.jpg" alt=""  width="500" height="500">
+                        <p>Soft and fresh bread.</p>
+                        <button onclick="addToCart('Bread')">Add to Cart</button>
+                    </div>
+
+
+                    <div class="product">
+                        <h3>Dairy products</h3>
+                        <p>High-quality dairy milk.</p>
+                        <img src="C:\Users\hp\Desktop\download (9).jpg" alt="" width="500" height="500">
+                        <button onclick="addToCart('Dairy')">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Supermarket. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
